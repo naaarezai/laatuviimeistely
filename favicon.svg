@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b35;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f7931e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="#1a1f35" stroke="url(#grad)" stroke-width="3"/>
+  
+  <!-- House icon -->
+  <g fill="url(#grad)">
+    <!-- Roof -->
+    <path d="M 50 25 L 70 40 L 70 38 L 50 23 L 30 38 L 30 40 Z"/>
+    <!-- Walls -->
+    <rect x="33" y="40" width="34" height="30" fill="url(#grad)" opacity="0.8"/>
+    <!-- Door -->
+    <rect x="43" y="52" width="14" height="18" fill="#1a1f35"/>
+    <!-- Window -->
+    <rect x="55" y="45" width="8" height="8" fill="#1a1f35"/>
+  </g>
+  
+  <!-- Letter R -->
+  <text x="50" y="88" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="url(#grad)" text-anchor="middle">R</text>
+</svg>
