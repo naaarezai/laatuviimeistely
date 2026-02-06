@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rakennustekniikkarahimi.fi/sitemap.xml
+Sitemap: https://laatuviimeistely.fi/sitemap.xml
